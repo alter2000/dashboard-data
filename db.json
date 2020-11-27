@@ -1,6 +1,7 @@
 {
   "widgets": [
 	{ "type": "weather",
+		"id": 1,
 		"config": {
 			"area": "Tirane/AL",
 			"unit": "C"
@@ -9,6 +10,7 @@
 	},
 
 	{ "type": "currency",
+		"id": 2,
 		"config": {
 			"to": "EUR",
 			"from": "USD"
@@ -16,6 +18,7 @@
 	},
 
 	{ "type": "stonks",
+		"id": 3,
 		"config": {
 			"follow": "TSLA",
 			"freq": "hourly"
@@ -23,6 +26,7 @@
 	},
 
 	{ "type": "rss",
+		"id": 4,
 		"config": {
 			"following": [
 				"https://blog.gardeviance.org/",
